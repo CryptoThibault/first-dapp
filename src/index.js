@@ -5,9 +5,11 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
+  <React.StrictMode>
     <Web3Provider>
       <App />
-    </Web3Provider>,
+    </Web3Provider>
+  </React.StrictMode>,
   document.getElementById('root')
 )
 
